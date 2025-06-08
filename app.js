@@ -31,10 +31,13 @@ if (operation === 'list') {
     const taskStatus = completed ? 'Completed ✓' : 'Pending';
 
     console.log(
-      `[${index}]\t${title} (${taskStatus})\n\tDescription: ${description}\n\tCreated: ${date} ${
+      `[${index + 1}]
+      \t${title} (${taskStatus})
+      \n\tDescription: ${description}
+      \n\tCreated: ${date} ${
         meridiem === 'PM' ? hour - 12 : hour
       }:${minutes} ${meridiem}
-      ${index - 1 < 0 ? '\n\n' : ''}`
+      ${tasks.length - 1 > index && index - 1 < 0 ? '\n\n' : ''}`
     );
   });
 }
