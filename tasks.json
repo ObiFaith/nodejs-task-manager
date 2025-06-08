@@ -1,0 +1,16 @@
+[
+  {
+    "id": 1,
+    "title": "Learn Node.js",
+    "description": "Complete the beginner tutorial",
+    "completed": true,
+    "createdAt": "2025-05-27T10:30:00.000Z"
+  },
+  {
+    "id": 2,
+    "title": "Python",
+    "description": "Python is easy to learn",
+    "completed": false,
+    "createdAt": "2025-06-08T11:26:01.255Z"
+  }
+]
